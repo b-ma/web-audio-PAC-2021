@@ -1,0 +1,23 @@
+* {
+  font-family: arial;
+}
+
+h1 {
+  color: #ffffff;
+  /* color: rbg(255, 255, 255); */
+  /* color: rbga(255, 255, 255, 0.9); */
+  background-color: steelblue;
+  padding: 12px;
+}
+
+.blink {
+  background-color: #cdcdcd;
+}
+
+a {
+  color: #454545;
+}
+
+a:selected {
+  color: #676767;
+}
