@@ -24,10 +24,6 @@ class Metro {
     // try to sync data and visual state to audio...
     setTimeout(() => {
       this.state.metroValue = 1;
-
-      setTimeout(() => {
-        this.state.metroValue = 0;
-      }, 100);
     }, Math.floor(dt * 1000));
 
     return currentTime + this.period;
